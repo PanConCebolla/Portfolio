@@ -1,0 +1,7 @@
+Entendimiento de la web: Compartir informacion que tenemos en nuestra computadora para que la vea todo el mundo, asi nacio el "www" (World wide web).
+Hay que configurar la computadora para enviar la informacion a través de internet. Ésto genera un enlace que es la llave para usar en un navegador que asocia el contenido a traves del enlace. Lo mismo pasa con la página web.
+Ej: un hotel donde tenemos: videos, imagenes, informacion. Necesitaremos la URL correcta para acceder a la informacion que necesitamos.
+Con el enlace, se solicita a la computadora propietaria de la informacion para darle acceso al contenido: computador => peticion (url) => servidor => contenido => computador
+
+Todo funciona con solicitud y respuesta.
+Una pagina web es un conjunto de código, donde el Navegador Web recibe éste mismo y lee el contenido que tiene, lo interpreta, lo entiende y lo transforma
