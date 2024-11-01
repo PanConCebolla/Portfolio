@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increible Portfolio de Jean Pierre 😱😱😱</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<!--Preguntar diferencias entre id y class-->
+<body>
+    <!--Navbar-->
+    <div class ="Contenedor-borde">
+        <header>
+            <nav class="Contenedor-menu">
+                <ul class="Contenedor-navegador"">
+                    <li><a href="#">Portfolio</a></li><!--TODO: darle estilo al navbar y linkearlo-->
+                    <li id="separador-izquierda"><a href="#">Mis proyectos</a></li>
+                    <li><a href="#">Huevos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Sobre Mi-->
+        <div class="Contenedor-aboutMe">
+            <p class="titulo">About me</p>
+                <div class="Contenedor-sobreMi">
+                    <div class="Contenedor-informacion">
+                        <p> Mi nombre es <span class="detalle"> Jean Pierre</span> soy un intento de programador y actualmente tengo 19 años. Desde chico siempre he sido aficionado a las tecnologias y todo lo referente, en especial los juegos. Por ello he comenzado esta travesía en el páramo de dolores de cabeza y jeroglificación de lenguaje, mejor conocido como <span class="detalle">Programación</span>.</p>
+                            <div class="Contenedor-misRedes">
+                                <!--Redes sociales-->
+                                <p class="RSS">Redes sociales:</p>
+                                <!--TODO: Poner los links-->
+                                <a href="" id="separador-izquierda"> <i class="fa-brands fa-twitter"></i> </a>
+                                <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                    </div>
+                    <!--Imagen mia-->
+                    <img src="img/gato.png" alt="bebe">
+                </div>
+        </div>
+
+        <section class="Titulo-proyectos">
+            <h1>Mis proyectos</h1>
+        </section>
+
+
+        <!--3 Proyectos-->
+        <section class="Contenedor-proyectos">
+            <article>
+                <h1>Carrito de Compras</h1>
+                    <p>Un <a href="https://github.com/PanConCebolla/Carrito-de-Compras-Local-Storage-">modulo</a> hecho con la intención de usarse en otro proyecto. Consta en 2 páginas, una para los productos y el otro para el carrito usando el Local Storage como intermediario.</p>
+                    <img src="/img/Carrito.png" alt="">
+            </article>
+            <article>
+                <h1>Portfolio</h1>
+                    <p>Una buena experiencia que me ayudó a entender más cosas de html y css.</p>
+                    <a href="https://github.com/PanConCebolla/Portfolio">Github</a>
+            </article>
+            <article>
+            <h1>Quiz (WIP)</h1>
+            <p>Idea apenas concebida</p>
+            </article>
+        </section>
+
+        <!--Sección de mensajes-->
+        <section class="Contenedor-mensajeria">
+        <h1>Enviame un mensaje</h1>
+        <form action="get">
+            <fieldset>
+                <label for="Name">Nombre:</label>
+                <input type="text" id="Name" name="name" placeholder="pepello">
+                
+                <label for="Surname">Apellido:</label>
+                <input type="text" id="Surname" name="surname" placeholder="Aquino">
+
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="email" placeholder="example@gmail.com">
+
+                <label for="Phnumber">Telefono:</label>
+                <input type="number" id="Phnumber" name="phnumber" placeholder="1136491474">
+
+                
+                <textarea class="Mensaje" name="Message" id="message" placeholder="Escriba su comentario aquí:"></textarea>
+
+                <input type="submit" id="Button" name="button">
+            </fieldset>
+        </form>
+        </section>
+
+        <!--Tecnologías en mi saber-->
+        <section class="Contenedor-tecnologias">
+        <table>
+            <tr>
+                <th><h1>Medio</h1></th>
+                <td><img src="/img/HTML.png" alt=""></td>
+                <td><p class="parrafo">Realmente considero que tengo una buena estructuración de páginas en lo que respecta a imitar, comprendo muy bien lo que quiero hacer y no me cuesta pensar mucho en cajas. Sin embargo, pienso que todavia hay un escalon más por subir, pero no se cual.</p></td>
+            </tr>
+            <tr>
+                <th><h1>Medio</h1></th>
+                <td><img src="img/CSS.png" alt=""></td>
+                <td><p class="parrafo">Siento pasión a la hora de decorar una página, me transmite paz y tranquilidad, aunque no sea lo mejor del mundo. No siento dificultades con el flexbox ni con el diseño en general, sin embargo tengo muchas cosas que refinar y aprender en cuanto a modelado dinámico. Pataleo un poco con la responsividad, pero se va dejando querer.</p></td>
+            </tr>
+            <tr>
+                <th><h1>Bajo</h1></th>
+                <td><img src="img/JS.png" alt=""></td>
+                <td><p class="parrafo">No considero que tenga un nivel decente, pues solo he practicado algoritmos simples. Por el lado del backend, mi lógica es pura intuición, casi sin bases ni fundamentos.</p></td>
+            </tr>
+
+        </table>
+
+        </section>
+
+
+        <div class="Misticismo">
+                <div class="contenedor2"><img src="/img/Ocultar.png" alt=""></div>
+                <div class="contenedor1">hola</div>
+        </div>
+
+
+            <footer class="Fcolor">
+                <p>Un footer comun y corriente sin copyright (el gato no es mio)</p>
+            </footer>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,324 @@
+/*---------------------Selectores universales---------------------*/
+* {
+    box-sizing: border-box;
+}
+
+::selection{
+    background-color: rgb(0, 148, 211);
+    color: white;
+}
+
+body{
+    font-family: Calibri;
+    background-color: rgb(39, 55, 70);
+    cursor: wait;
+    margin: 0;
+}
+
+h1{
+    color: rgb(245, 176, 65);
+}
+
+p{
+    color: rgb(93, 173, 226);
+    line-height: 1.5;
+}
+
+#separador-izquierda{
+    margin-left: auto;
+}
+
+.Contenedor-borde{
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    border: 3px solid rgb(214, 162, 77);
+    padding: 0 10px 0 10px;
+    background-color: rgb(28, 40, 51);
+    border-radius: 15px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 10px;
+    display: block; /*Cambia el elemento a bloque*/
+    margin: 0 auto; /* Centra el contenido*/
+}
+/*------------------------------------------------------------*/
+
+/*---------------------------Navbar---------------------------*/
+/*.Contenedor-menu{
+SIN USO
+}*/
+
+.Contenedor-menu .Contenedor-navegador{
+    background-color: rgb(39, 55, 70);
+    justify-content: space-between;
+    padding: 1rem;
+    list-style: none;
+    border-radius: .5rem;
+    display: flex;
+}
+
+.Contenedor-menu .Contenedor-navegador a{
+    margin-right: 10px;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: rgb(147, 195, 236);
+    text-decoration: none; /*quita el subrayado a la etiqueta <a>*/
+}
+
+.Contenedor-menu .Contenedor-navegador a:hover{/*cuando el cursor pasa por encima del elemento, cambia el color de fondo*/
+    background-color: rgb(80, 80, 216);
+    color: white;
+}
+
+.Contenedor-menu .Contenedor-navegador a:active {
+    background-color: rgb(110, 110, 219);
+    color: whitesmoke;
+}
+/*---------------------------------------------------------------*/
+
+/*---------------------------About Me---------------------------*/
+.Contenedor-aboutMe{
+    margin: 4rem 2rem 2rem;
+}
+
+.Contenedor-aboutMe .titulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 75px;
+    font-weight: 1000;
+    color: rgb(245, 176, 65);
+    padding-left: 30px;
+    font-family: monospace;
+}
+
+.Contenedor-aboutMe .Contenedor-sobreMi{
+    display: flex;
+    gap: 2rem;
+}
+
+.Contenedor-aboutMe .Contenedor-sobreMi .Contenedor-informacion{
+    border-radius: .5rem;
+    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.5;
+}
+
+.Contenedor-aboutMe .Contenedor-sobreMi .Contenedor-informacion:hover{
+    transition: .5s;
+    background-color: #1a3670;
+}
+
+.Contenedor-aboutMe .Contenedor-sobreMi .Contenedor-informacion .detalle{
+    color: rgb(243, 243, 63);
+    text-decoration: underline;
+}
+
+.Contenedor-aboutMe .Contenedor-sobreMi .Contenedor-misRedes{
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+}
+
+.Contenedor-aboutMe .Contenedor-sobreMi .Contenedor-misRedes .RSS{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(250, 215, 160);
+}
+
+.Contenedor-aboutMe .Contenedor-sobreMi .Contenedor-misRedes i{
+    font-size: 2.5rem;
+}
+/*---------------------------------------------------------------------------------*/
+
+/*------------------------------------Proyectos------------------------------------*/
+.Titulo-proyectos{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #213255;
+}
+
+.Contenedor-proyectos{
+    margin: 4rem 2rem 2rem;
+    display: flex;
+}
+
+.Contenedor-proyectos article{
+    margin: 5px;
+    padding: 20px 25px 20px 25px;
+    background-color: rgb(39, 55, 70);
+    font-family: monospace;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.Contenedor-proyectos article p{
+    color: rgb(93, 173, 226);
+}
+/*----------------------------------------------------------------------------------*/
+
+/*------------------------------------Mensajeria------------------------------------*/
+.Contenedor-mensajeria{
+    margin: 4rem 2rem 2rem;
+}
+
+.Contenedor-mensajeria fieldset{
+    border-radius: 5px;
+    border: 2px solid rgb(214, 162, 77);
+}
+
+.Contenedor-mensajeria label{
+    color: rgb(0, 148, 211);
+    font-weight: 600;
+}
+
+.Contenedor-mensajeria .Mensaje{
+        width: 100%;
+        padding: 8px 18px;
+        margin: 9px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+        resize: none;
+}
+
+.Contenedor-mensajeria input{
+    width: 100%;
+    height: 1.5rem;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/*-----------------------------------Tecnologías----------------------------------*/
+.Contenedor-tecnologias{
+    margin: 4rem 2rem 2rem;
+    border: 1px solid rgb(214, 162, 77);
+    border-radius: .3rem;
+}
+
+.Contenedor-tecnologias th, td{
+    padding: 0 10px 0 10px;
+}
+
+tr:nth-child(even) {/* Fondo para las filas pares */
+    background-color: rgb(28, 40, 51 ); /* Color gris claro */
+}
+
+tr:nth-child(odd) {/* Fondo para las filas impares */
+    background-color: rgb(39, 55, 70); /* Color blanco */
+}
+/*-------------------------------------------------------------------------------*/
+
+/*--------------------------------Imagen oculta----------------------------------*/
+.Misticismo {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    height: 100px;
+}
+
+.Misticismo .contenedor1{
+    color: red;
+    position: absolute;
+}
+
+.Misticismo .contenedor2{
+    position: absolute;
+    z-index: 1;
+}
+
+.Misticismo .contenedor2:hover{
+    opacity: .5;
+    transition: .5s;
+}
+
+
+/*
+.Misticismo:hover{
+    background-image: url(/img/bebe.png);
+    opacity: .5;
+}
+    */
+/*--------------------------------------------------------------*/
+
+/*-----------------------------Media Queries*---------------------------*/
+/* Tablet horizontal */
+@media (max-width: 1080px) {/*la verdad que no cambiaria nada aca*/}
+
+/* Tablet vertical */
+@media (max-width: 768px) {
+    .Contenedor-proyectos{
+        display: grid;
+        gap: 1rem;
+        width: 80%;
+    }
+
+    .Contenedor-proyectos article{
+        display: grid;
+        height: 100%;
+    }
+
+    .Contenedor-sobreMi {
+        flex-direction: column-reverse;
+    }
+    .Contenedor-misRedes, .Contenedor-navegador {
+        display: grid;
+        text-align: center;
+    }
+}
+
+/* Mobil 1 */
+@media (max-width: 480px) {
+    #separador-izquierda{
+        margin: auto;
+    }
+    .Contenedor-menu .Contenedor-navegador{
+        width: 100%;
+        padding-left: auto;
+        text-align: center;
+        display: grid;
+    }
+    .Contenedor-aboutMe .Contenedor-informacion{
+        width: 100%;
+    }
+    .Contenedor-aboutMe .Contenedor-sobreMi .Contenedor-misRedes{
+        display: grid;
+        text-align: center;
+    }
+    .Contenedor-proyectos {
+        width: 80%;
+    }
+    .Contenedor-mensajeria {
+        width: 80%;
+    }
+    .Contenedor-tecnologias table tr{
+        display: grid;
+    }
+}
+
+/* Mobil 2 */
+@media (max-width: 375px) {
+    .Contenedor-proyectos {
+        width: 70%;
+    }
+    .Contenedor-mensajeria {
+        width: 70%;
+    }
+}
